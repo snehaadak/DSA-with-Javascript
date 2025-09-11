@@ -31,7 +31,7 @@
 
 
 # To `Add` and `Remove` the elements at the start of the Array: `unshift` & `shift`
-    arr.unshit("oraange"); => ["orange","apple","banana","cherry"]
+    arr.unshit("orange"); => ["orange","apple","banana","cherry"]
     arr.shift()            => ["apple","banana","cherry"]
 
     shift and unshift are not much performant when it comes to handling huge set of data
