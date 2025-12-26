@@ -2,7 +2,17 @@
 // https://leetcode.com/problems/rotate-array/
 
 
+function rotate(nums, k) {
+    for (let i=0;i<k; i++){
+        let first = nums[nums.length - 1];
+        let last = nums[-1];
+        nums.unshift(first);
+        nums.pop(last);
+    }
+    console.log(nums)
+};
 
+rotate([1,2,3,4,5,6,7],3)
 
 
 
