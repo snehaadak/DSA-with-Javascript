@@ -1,11 +1,9 @@
 ## Arrays
 
-
 # `Declaring` an Array
     (1) let arr = new Array();
 
     (2) let arr =["apple","banana","cherry"];
-
 
 
 # `Accesing` an Array
