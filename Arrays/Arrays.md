@@ -191,7 +191,6 @@
     console.log(numbers)                    => [6, 5, 4, 3, 2, 1]
 
 
-
 # `sort`: to sort the array
     const unsorted = [5, 7, 8, 2, 6, 1, 3]
     unsorted.sort((a,b) => a - b)               => [1, 2, 3, 5, 6, 7, 8]
